@@ -1,0 +1,87 @@
+ body{ 
+    background:url("../img/fondo.png");
+    justify-content: center;
+}
+
+h1, h2, h3, h4 {
+    font-family: "Arvo", serif;
+    font-weight: 700;
+}
+
+
+#contenedor{
+width: 100%;
+max-width: 1400px;
+ background: rgba(130, 118, 202, 0.956);
+margin: 0 auto;
+padding:0.2em 0em;
+}
+
+header{
+background: #444487;
+margin: 1em; 
+padding: 0.3em;
+text-align: center;
+ color: #b09333;
+}
+ 
+nav ul{
+margin:2em;
+padding: 0em;
+list-style-type: none;
+text-align: center;
+}
+nav li{
+    display: inline-block;
+}
+nav a {
+ background: #444487;
+ padding: 1em;
+ line-height: 2em ;
+ text-decoration: none;
+  color: #037e42;
+}
+
+ a:link{
+     background-color: #4d4ded;
+}
+
+a:visited{
+     background-color: rgb(88, 1, 201)
+}
+
+a:hover {
+      background-color: #42d3e9;
+        }
+    
+a:active{
+  background-color: rgb(199, 1, 182) 
+}
+article p{
+    text-align:center;
+   
+}
+
+ article h2,h3{
+   background-color: #4a9ba8;
+    text-align: center;
+    margin: 1em; 
+    padding: 0.3em;
+ }
+ article ul {
+    text-align: center;
+    list-style-position: inside;
+}
+ footer{
+         background-color: #4a9ba8;
+        text-align: center;
+        margin: 1em; 
+        padding: 1em;
+    }
+               
+aside{
+      background: rgba(76, 172, 186, 0.441);
+        text-align: center;
+       margin: 0.3em; 
+       padding: 1em;
+    }
